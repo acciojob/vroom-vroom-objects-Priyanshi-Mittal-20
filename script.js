@@ -1,5 +1,5 @@
 // Complete the js code
-class Car() {
+class Car{
 	constructor(make,model)
 	{
 		this.make=make
@@ -11,7 +11,7 @@ class Car() {
 	}
 }
 
-class SportsCar extends Car() {
+class SportsCar extends Car{
 	constructor(make,model,topSpeed){
 		super(make,model)
 		this.topSpeed=topSpeed
